@@ -25,6 +25,9 @@ main {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr ;
+    max-width: 400rem;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 header{
     display: flex;
@@ -32,7 +35,13 @@ header{
 
 }
 footer{
+
 text-align: center;
+background-color: #faf9f9;
+height: 5rem;
+margin: 1rem 10% 2rem 10%;
+padding: 1remm;
+
 }
 #search-bar{
 height: 1rem;
@@ -55,6 +64,7 @@ article{
     border: 5px solid #eeeeee;
     margin: 3rem;
     padding: 2rem;
+    max-width: 60rem;
 }
 .date{
     color: var(--color-grey);
@@ -63,6 +73,7 @@ article{
 
 }
 footer p {
+    padding-top: 1rem;
     color: var(--color-grey);
 }
 .blog-card-title{
