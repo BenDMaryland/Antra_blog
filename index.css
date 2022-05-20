@@ -63,7 +63,9 @@ margin-top: 5%;
 }
 
 article{
-    border: 5px solid #eeeeee;
+    border: .6rem solid #eeeeee;
+    /* border-radius: 1rem; */
+    box-shadow: .3rem .3rem .4rem #eeeeee;
     margin: 1rem;
     padding: 2rem;
     max-width: 60rem;
