@@ -1,7 +1,30 @@
+
+:root{
+    --color-grey:#aaaaaa;
+}
+
+
+label{
+    cursor:pointer;
+}
+
+input[type='checkbox']{
+    cursor:pointer;
+}
+
+/*  */
+
+body{
+    font-family: sans-serif;
+    width: 100%;
+    position: absolute;
+
+}
+
 main {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
 }
 header{
     display: flex;
@@ -10,4 +33,49 @@ header{
 }
 footer{
 text-align: center;
+}
+#search-bar{
+height: 1rem;
+width: 7rem;
+text-align: end;
+border: none;
+margin-top: 5%;
+}
+#subscribe-link{
+    height: 1rem;
+    width: 7rem;
+    margin-top: 5%;
+    color: var(--color-grey);
+}
+#blog-header{
+    text-decoration: underline;
+}
+
+article{
+    border: 5px solid #eeeeee;
+    margin: 3rem;
+    padding: 2rem;
+}
+.date{
+    color: var(--color-grey);
+    margin-top: .1rem;
+    margin-bottom: 0;
+
+}
+footer p {
+    color: var(--color-grey);
+}
+.blog-card-title{
+    margin-top: .4rem;
+    margin-bottom: 0;
+}
+.blog-card-text{
+    margin-top: .4rem;
+    margin-bottom: 3rem;
+}
+.world{
+    color:#4292ff
+}
+.design{
+    color:#58b86c;
 }
