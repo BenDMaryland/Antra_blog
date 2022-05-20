@@ -1,0 +1,13 @@
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+
+}
+footer{
+text-align: center;
+}
