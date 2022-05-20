@@ -17,11 +17,7 @@ input[type='checkbox']{
 body{
     font-family: sans-serif;
     width: 100%;
-    position: absolute;
-    max-width: 400rem;
-    margin-right: 10%;
-    margin-left: 10%;
-
+   
 }
 
 main {
