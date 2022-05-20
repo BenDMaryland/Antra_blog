@@ -18,6 +18,9 @@ body{
     font-family: sans-serif;
     width: 100%;
     position: absolute;
+    max-width: 400rem;
+    margin-right: 10%;
+    margin-left: 10%;
 
 }
 
@@ -25,13 +28,12 @@ main {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr ;
-    max-width: 400rem;
-    margin-right: 10%;
-    margin-left: 10%;
+
 }
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 1rem;
 
 }
 footer{
@@ -39,7 +41,7 @@ footer{
 text-align: center;
 background-color: #faf9f9;
 height: 5rem;
-margin: 1rem 10% 2rem 10%;
+margin: 1rem;
 padding: 1remm;
 
 }
