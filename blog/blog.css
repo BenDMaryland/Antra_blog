@@ -1,0 +1,74 @@
+:root {
+    --color-grey: #aaaaaa;
+}
+
+
+label {
+    cursor: pointer;
+}
+
+input[type='checkbox'] {
+    cursor: pointer;
+}
+
+/*  */
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-left: 3%;
+    margin-right: 5%;
+
+}
+
+#blog-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+
+}
+
+article{
+margin-right: 4%;
+    display: block;
+}
+
+footer {
+
+    text-align: center;
+    background-color: #faf9f9;
+    height: 5rem;
+    margin: 1rem;
+    padding: 1remm;
+
+}
+
+#search-bar {
+    height: 1rem;
+    width: 7rem;
+    text-align: end;
+    border: none;
+    margin-top: 5%;
+}
+
+#subscribe-link {
+    height: 1rem;
+    width: 7rem;
+    margin-top: 5%;
+    color: var(--color-grey);
+}
+
+#blog-header-title {
+    text-decoration: underline;
+}
+
+.nav-links{
+display: block;
+
+}
